@@ -26,11 +26,11 @@ pipeline {
                 powershell '''
                     $ErrorActionPreference = "Stop"
 
-                    if (-not (Test-Path "index.html")) {
+                    if (-not (Test-Path "JenkinsTest\\Pages\\index.html")) {
                         throw "index.html is missing."
                     }
 
-                    if (-not (Test-Path "Dockerfile")) {
+                    if (-not (Test-Path "JenkinsTest\\Dockerfile")) {
                         throw "Dockerfile is missing."
                     }
 
