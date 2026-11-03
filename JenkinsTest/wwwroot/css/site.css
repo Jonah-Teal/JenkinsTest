@@ -30,19 +30,3 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
-:root {
-    --cava-yellow: #F9D000;
-    --cava-cream: #FFF8E8;
-    --cava-tangerine: #FF9D77;
-    --cava-baby-blue: #80CEFE;
-    --cava-cerulean: #009EF4;
-}
-
-body {
-    background-color: var(--cava-cream);
-}
-
-.THeHeader {
-
-    color:
-}
