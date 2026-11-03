@@ -31,16 +31,16 @@ body {
   text-align: start;
 }
 
-:root {
+/*:root {
     --cava-yellow: #F9D000;
     --cava-cream: #FFF8E8;
     --cava-tangerine: #FF9D77;
     --cava-baby-blue: #80CEFE;
     --cava-cerulean: #009EF4;
-}
+}*/
 
 body {
-    background-color: var(--cava-cream);
+    background-color:white;
 }
 
 
