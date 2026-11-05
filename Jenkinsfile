@@ -73,7 +73,7 @@ pipeline {
         // ---------------------------------------------------
         // 3. Simple smoke test – start the container and hit it
         // ---------------------------------------------------
-stage('Smoke Test') {
+stage('Test') {
     steps {
         script {
             echo "Starting ASP.NET container..."
