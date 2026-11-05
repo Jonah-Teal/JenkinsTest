@@ -98,3 +98,11 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+.card {
+    position:absolute;
+    left: 0;
+    top: 0;
+    background-position: center
+
+
+}
